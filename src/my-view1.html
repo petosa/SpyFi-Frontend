@@ -12,6 +12,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="shared-styles.html">
 <link rel="import" href="../bower_components/highcharts-chart/highcharts-chart.html">
 <script src="js/chartGen.js"></script>
+<script src="js/mongo.js"></script>
 
 <dom-module id="my-view1">
   <template>
@@ -24,6 +25,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="card">
       <script id="marker">
         chartGen();
+        getAllDocs("a");
       </script>
       <p>Ut labores minimum atomorum pro. Laudem tibique ut has.
       <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
